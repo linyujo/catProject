@@ -43,7 +43,7 @@
 	},
 	"scripts": {
 		"start": "react-scripts start",
-		"build": "NODE_ENV=production node server/index.js",
+		"build": "react-scripts build",
 		"test": "react-scripts test --env=jsdom",
 		"eject": "react-scripts eject",
 		"server": "NODE_ENV=development node server/index.js",
@@ -51,15 +51,15 @@
 	},
 	"proxy": {
 		"/api": {
-			"target": "http://localhost:3000",
+			"target": "http://localhost:3009",
 			"ws": true
 		},
 		"/socket.io": {
-			"target": "ws://localhost:3000/",
+			"target": "ws://localhost:3009/",
 			"ws": true
 		},
 		"/sockjs-node": {
-			"target": "wss://localhost:3000/",
+			"target": "wss://localhost:3009/",
 			"wss": true
 		}
 	},
