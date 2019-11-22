@@ -51,15 +51,15 @@
 	},
 	"proxy": {
 		"/api": {
-			"target": "http://localhost:3009",
+			"target": "http://localhost:3000",
 			"ws": true
 		},
 		"/socket.io": {
-			"target": "ws://localhost:3009/",
+			"target": "ws://localhost:3000/",
 			"ws": true
 		},
 		"/sockjs-node": {
-			"target": "wss://localhost:3009/",
+			"target": "wss://localhost:3000/",
 			"wss": true
 		}
 	},
