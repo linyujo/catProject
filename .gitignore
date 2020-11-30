@@ -21,7 +21,7 @@ dhparams.pem
 .env.production.local
 
 # amazon ec2 ssh pem
-catcrush.pem
+catcrushEC2KeyPair.pem
 
 # ssl certificate
 /sslforfree
